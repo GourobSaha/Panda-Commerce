@@ -2,6 +2,12 @@
   background-color: #fceae8;
 }
 .navbar .nav-link:hover {
+  color: #ff589b;
+}
+.carousel {
+  margin-top: 100px;
+}
+.carousel h2 {
   color: #ff136f;
 }
 .btn-buy-now {
@@ -10,4 +16,36 @@
   border: none;
   border-radius: 8px;
   padding: 9px 25px;
+}
+.carousel .carousel-inner {
+  padding: 0 5% 0 5%;
+}
+.carousel .carousel-control-prev {
+  background-color: #fceae846;
+  width: 5%;
+}
+.carousel .carousel-control-next {
+  background-color: #fceae846;
+  width: 5%;
+}
+.categories img {
+  width: 100px;
+}
+.categories:hover {
+  box-shadow: 5px 5px 15px #8d576c9f;
+  transition: 0.5s;
+}
+.card {
+  box-shadow: 5px 5px 15px #8d576c34;
+}
+.card:hover {
+  box-shadow: 5px 5px 15px #8d576c9f;
+  transition: 0.5s;
+}
+.card .card-body h2 {
+  color: #ff136f;
+}
+.card .card-footer {
+  border: 0;
+  background-color: #fceae8;
 }
