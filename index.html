@@ -7,6 +7,8 @@
 
     <link rel="shortcut icon" href="images/fav.png" type="image/x-icon" />
 
+    <link rel="stylesheet" href="style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,7 +19,7 @@
   <body>
     <header class="container">
       <!-- Navbar started -->
-      <nav class="navbar navbar-expand-lg bg-light rounded-3">
+      <nav class="navbar navbar-expand-lg theme-bg rounded-3 mb-5">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img src="images/logo.png" alt=""
@@ -44,7 +46,114 @@
         </div>
       </nav>
       <!-- Navbar ended -->
+
+      <!-- Carousel started -->
+      <section>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide theme-bg rounded-3 mb-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner p-5">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-7 d-flex align-items-center">
+                  <div>
+                    <h1>Cool Dude Headphone</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus nam placeat modi. Ea, quidem odit cumque
+                      molestias perspiciatis itaque officiis corporis suscipit
+                      alias dolorum aspernatur quibusdam vitae aperiam veniam
+                      doloremque.
+                    </p>
+                    <h2>$399</h2>
+                    <button type="button" class="btn-buy-now">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/headphone.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-7 d-flex align-items-center">
+                  <div>
+                    <h1>Cool Dude X-Box</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus nam placeat modi. Ea, quidem odit cumque
+                      molestias perspiciatis itaque officiis corporis suscipit
+                      alias dolorum aspernatur quibusdam vitae aperiam veniam
+                      doloremque.
+                    </p>
+                    <h2>$699</h2>
+                    <button type="button" class="btn-buy-now">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/xbox.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-7 d-flex align-items-center">
+                  <div>
+                    <h1>Cool Dude Television</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusamus nam placeat modi. Ea, quidem odit cumque
+                      molestias perspiciatis itaque officiis corporis suscipit
+                      alias dolorum aspernatur quibusdam vitae aperiam veniam
+                      doloremque.
+                    </p>
+                    <h2>$1199</h2>
+                    <button type="button" class="btn-buy-now">Buy Now</button>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <img
+                    src="images/banner-images/tv.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Carousel ended -->
     </header>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
